@@ -411,6 +411,7 @@ img[alt="app_screens"] {
 }
 
 #tweets > img {
+    flex-shrink: 0;
     max-width: 100%;
     height: auto;
 }
@@ -451,7 +452,7 @@ img[alt="app_screens"] {
 }
 
 .carousel-container .c-nav {
-    width: fit-content;
+    width: -moz-fit-content;
     padding-top: 40px;
 }
 
