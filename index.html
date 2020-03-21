@@ -1,0 +1,382 @@
+<!docktype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/generic/base.js"></script>
+    <script src="js/homepage/carousel.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/homepage/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/homepage/tablet.css"
+          media="screen and (max-width: 1365px) and (min-width: 876px)">
+    <link rel="stylesheet" type="text/css" href="styles/homepage/mobile.css"
+          media="screen and (max-width: 875px)">
+
+    <title>AppSon</title>
+</head>
+<body>
+<header>
+    <nav role="navigation">
+        <div id="topMenuAppSonBtn">
+            <a href="index.html">AppSon</a>
+        </div>
+
+        <div id="menuToggle">
+            <input type="checkbox">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a id="signUpBtn" href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="intro">
+        <h1>Best Desktop App for You</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua.
+        </p>
+
+        <div>
+            <a id="downloadBtn" href="#">Download</a>
+            <a id ="trialBtn" href="#">Free Trial</a>
+        </div>
+
+        <img src="images/homepage/app_screen.png" alt="app_screens">
+    </section>
+
+    <a href="#descriptions" class="move-down-link"><img src="images/homepage/arrow-down-pic.png" alt="arrow-down"></a>
+</header>
+
+<div id="content">
+    <section id="opportunities">
+        <div>
+            <img src="images/homepage/analysis.png" alt="analysis">
+            <h4>Analysis</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+            </p>
+        </div>
+        <div id="middle-title">
+            <img src="images/homepage/design.png" alt="design">
+            <h4>Clean Design</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+            </p>
+        </div>
+        <div>
+            <img src="images/homepage/msg.png" alt="msg">
+            <h4>Messaging</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+            </p>
+        </div>
+    </section>
+    
+    <section id="descriptions">
+        <div id="fst-desc">
+            <img src="images/homepage/people-0.png" alt="people-0">
+            <div>
+                <h2>Easy Messaging</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" onclick="return false;">Read More <img src="images/homepage/arrow-icon.png" alt="arrow"></a>
+            </div>
+        </div>
+        <div id="scnd-desc">
+            <div>
+                <h2>Keep In Touch</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" onclick="return false;">Read More <img src="images/homepage/arrow-icon.png" alt="arrow"></a>
+            </div>
+            <img src="images/homepage/people-1.png" alt="people-1">
+        </div>
+    </section>
+
+    <section id="instruction">
+        <h2>How Does It Work?</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+        </p>
+        <div>
+            <div>
+                <span class="chane"><img src="images/homepage/account.png" alt="account-pic"></span>
+                <div>
+                    <h4>Create An Account</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                </div>
+            </div>
+            <div>
+                <span class="chane"><img src="images/homepage/email.png" alt="email-pic"></span>
+                <div>
+                    <h4>Confirm Email</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                </div>
+            </div>
+            <div>
+                <span><img src="images/homepage/results.png" alt="results-pic"></span>
+                <div>
+                    <h4>See Results</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices">
+        <div id="ppMode">
+            <h2>Pricing Plan</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+            </p>
+            <form>
+                <div class="radio-buttons-wrapper">
+                    <input type="radio" class="radio-button" name="radio-button-set" value="1" id="r-btn-monthly" checked>
+                    <label for="r-btn-monthly">Monthly</label>
+                    <input type="radio" class="radio-button" name="radio-button-set" value="2" id="r-btn-yearly">
+                    <label for="r-btn-yearly">Yearly</label>
+                </div>
+            </form>
+        </div>
+        <div id="pp-standard">
+            <img src="images/homepage/standard.png" alt="standard">
+            <h4>Standard</h4>
+            <ul>
+                <li>2gb Hosting</li>
+                <li>10 Custom Domain</li>
+                <li>SSD Hosting</li>
+                <li>50 gb Bandwith</li>
+                <li>Free Support</li>
+            </ul>
+            <h2><small>$</small>19.00</h2>
+            <a href="#" onclick="return false;">Try Now</a>
+        </div>
+        <div id="pp-premium">
+            <img src="images/homepage/premium.png" alt="premium">
+            <h4>Premium</h4>
+            <ul>
+                <li>2gb Hosting</li>
+                <li>10 Custom Domain</li>
+                <li>SSD Hosting</li>
+                <li>50 gb Bandwith</li>
+                <li>Free Support</li>
+            </ul>
+            <h2><small>$</small>49.00</h2>
+            <a href="#" onclick="return false;">Try Now</a>
+        </div>
+    </section>
+
+    <section id="tweets">
+        <img src="images/homepage/people-2.png" alt="people-2">
+        <div class="tweets-content">
+            <h2 style="height: fit-content">Trusted By More Than 55M Peoples</h2>
+            <div class="carousel-container">
+                <div class="track">
+                    <div class="card-container">
+                        <div class="tweet-container">
+                            <h4>Raisa Moni</h4>
+                            <img src="images/homepage/twitter-icon.png" alt="twitter-icon">
+                            <h5>Envato Customer</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore etamet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="tweet-container">
+                            <h4>Raisa Moni</h4>
+                            <img src="images/homepage/twitter-icon.png" alt="twitter-icon">
+                            <h5>Envato Customer</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore etamet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="tweet-container">
+                            <h4>Raisa Moni</h4>
+                            <img src="images/homepage/twitter-icon.png" alt="twitter-icon">
+                            <h5>Envato Customer</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore etamet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="tweet-container">
+                            <h4>Raisa Moni</h4>
+                            <img src="images/homepage/twitter-icon.png" alt="twitter-icon">
+                            <h5>Envato Customer</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore etamet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="tweet-container">
+                            <h4>Raisa Moni</h4>
+                            <img src="images/homepage/twitter-icon.png" alt="twitter-icon">
+                            <h5>Envato Customer</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore etamet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="tweet-container">
+                            <h4>Raisa Moni</h4>
+                            <img src="images/homepage/twitter-icon.png" alt="twitter-icon">
+                            <h5>Envato Customer</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore etamet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="tweet-container">
+                            <h4>Raisa Moni</h4>
+                            <img src="images/homepage/twitter-icon.png" alt="twitter-icon">
+                            <h5>Envato Customer</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore etamet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="tweet-container">
+                            <h4>Raisa Moni</h4>
+                            <img src="images/homepage/twitter-icon.png" alt="twitter-icon">
+                            <h5>Envato Customer</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore etamet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-nav">
+                    <span data-value="0" class="s-active"></span>
+                    <span data-value="1"></span>
+                    <span data-value="2"></span>
+                    <span data-value="3" data-type="middle"></span>
+                    <span data-value="4" data-type="small"></span>
+                    <span data-value="5" data-type="small"></span>
+                    <span data-value="6" data-type="small"></span>
+                    <span data-value="7" data-type="small"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <h2>Latest News From Us</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+        </p>
+        <div class="news-wrapper">
+            <article class="main-article">
+                <img src="images/homepage/news-pic-0.png" alt="news-pic-0">
+                <h3>The master bedroom suite is phenomenally spacious</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                </p>
+                <a href="#" onclick="return false;">Continue Reading
+                    <img src="images/homepage/arrow-icon.png" alt="arrow"></a>
+            </article>
+            <div class="articles">
+                <article>
+                    <img src="images/homepage/news-pic-1.png" alt="news-pic-1">
+                    <div class="article-wrapper">
+                        <h4>The master bedroom suite is phenomey spacious</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/homepage/news-pic-2.png" alt="news-pic-2">
+                    <div class="article-wrapper">
+                        <h4>The master bedroom suite is phenomey spacious</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/homepage/news-pic-3.png" alt="news-pic-3">
+                    <div class="article-wrapper">
+                        <h4>The master bedroom suite is phenomey spacious</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <section id="freeTrial">
+        <div class="trial-info-wrapper">
+            <h2>Try 30 Days Free Trial</h2>
+            <p>No credit card required</p>
+        </div>
+        <a href="#" onclick="return false;">Get Started <img src="images/homepage/white-arrow-icon.png" alt="arrow"></a>
+    </section>
+
+    <section id="subscr">
+        <h1>AppSon</h1>
+        <form id="subscribeForm" action="">
+            <input role="textbox" name="email" id="emailInput" placeholder="Enter Your Email">
+            <input type="submit" name="email" value="subscribe" id="submitEmail" onclick="return false;">
+        </form>
+    </section>
+
+    <section id="reference">
+        <p>© 2018 Copyright, All Rights Reserved by AppSon</p>
+
+        <div class="footer-nav-wrapper">
+            <a href="#" onclick="return false;">Terms & Conditions</a>
+            <a href="#" onclick="return false;">Privacy Policy</a>
+            <a href="#" onclick="return false;">Help</a>
+        </div>
+
+        <div class="social-networks-wrapper">
+            <a href="#" onclick="return false;"><img src="images/homepage/fb.png" alt="fb"></a>
+            <a href="#" onclick="return false;"><img src="images/homepage/twitter.png" alt="twitter"></a>
+            <a href="#" onclick="return false;"><img src="images/homepage/yt.png" alt="yt"></a>
+        </div>
+
+        <a href="#topMenuAppSonBtn"><img src="images/homepage/up-arrow-pic.png" alt="up-arrow"></a>
+    </section>
+</footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+.news-wrapper {
+    justify-content: center;
+}
+
+nav, #intro {
+    width: 97%;
+}
+
+@media screen and (max-width: 1365px) and (min-width: 1201px) {
+    #instruction > div {
+        width: 90%;
+    }
+
+    #instruction span.chane::after {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1062px) {
+    #instruction > div {
+        width: 95%;
+    }
+
+    #instruction span.chane::after {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 1061px) and (min-width: 876px) {
+    #signUpBtn {
+        width: 140px;
+    }
+
+    #instruction > div {
+        width: 100%;
+    }
+
+    #instruction span.chane::after {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 1189px) {
+    #prices {
+        flex-direction: column;
+    }
+
+    #prices h2 {
+        text-align: center;
+    }
+
+    #prices p {
+        text-align: center;
+    }
+
+    .radio-buttons-wrapper {
+        width: 300px;
+    }
+
+    .radio-button + label {
+        width: 49.2%;
+    }
+}
+
+@media screen and (max-width: 796px) {
+    #opportunities #middle-title {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 908px) {
+    #freeTrial p {
+        text-align: center;
+    }
+}

@@ -1,0 +1,900 @@
+header {
+    position: relative;
+    display: block;
+    background-image: url("../../images/homepage/shape.png"), linear-gradient(to right, #0f7bff, #0f7bff);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+footer {
+    background-color: #0f7bff;
+}
+
+/* top menu */
+
+#topMenuAppSonBtn {
+    height: 100%;
+    width: 179px;
+    border-radius: 0 0 22px 22px;
+    background-color: #0f7bff;
+}
+
+#topMenuAppSonBtn > a {
+    width: inherit;
+    line-height: inherit;
+    text-align: center;
+    border-radius: 0 0 22px 22px;
+    color: #feffff;
+}
+
+#topMenuAppSonBtn > a:hover {
+    color: #ffffff;
+}
+
+/* intro section */
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 106px;
+}
+
+#intro h1 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#intro p {
+    max-width: 611px;
+    margin: 0;
+    margin-bottom: 37px;
+    text-align: center;
+}
+
+#intro a {
+    display: inline-block;
+    width: 163px;
+    margin: 15px;
+    border-radius: 25px;
+    border: solid 2px #0f7bff;
+
+    text-align: center;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+#intro > div {
+    text-align: center;
+}
+
+#downloadBtn {
+    width: 165px;
+    line-height: 50px;
+    color: #ffffff;
+    background-color: #0f7bff;
+}
+
+#trialBtn {
+    color: #0f7bff;
+}
+
+#trialBtn:hover {
+    color: #ffffff;
+    background-color: #0f7bff;
+}
+
+img[alt="app_screens"] {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.move-down-link {
+    position: absolute;
+    bottom: -35px;
+    left: calc(50% - 35px);
+    width: 70px;
+    height: 70px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.move-down-link img {
+    margin-top: 15px;
+}
+
+/* intro section end */
+
+/* opportunities section */
+
+#opportunities {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    min-height: 635px;
+    margin: 50px auto;
+}
+
+#opportunities div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 15px;
+    padding: 40px 0;
+    width: 360px;
+    background-color: #ffffff;
+    box-shadow: 0 0 25px #f0f0f0;
+    border-radius: 5px;
+
+}
+
+#opportunities #middle-title {
+    margin-top: 10vh;
+}
+
+#opportunities p {
+    margin: 0 15px;
+    text-align: center;
+}
+
+#opportunities h4 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+/* opportunities section end */
+
+/* descriptions section */
+
+#descriptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    background-color: #ffffff;
+}
+
+#fst-desc, #scnd-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    margin: auto;
+}
+
+#fst-desc {
+    flex-wrap: wrap;
+}
+
+#scnd-desc {
+    flex-wrap: wrap-reverse;
+}
+
+#descriptions > div > div {
+    height: fit-content;
+    margin: 0 3%;
+}
+
+#descriptions > div > img {
+    max-width: 100%;
+    height: auto;
+    margin: 3%;
+}
+
+#descriptions > div p {
+    text-align: justify;
+    max-width: 544px;
+}
+
+#descriptions a {
+    color: #0f7bff;
+    font-weight: bold;
+}
+
+/* descriptions section end */
+
+/* instruction section */
+
+#instruction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    min-height: 645px;
+    margin: auto;
+}
+
+#instruction h2 {
+    background-image: url("../../images/homepage/strips.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 75px;
+}
+
+#instruction p {
+    max-width: 735px;
+    text-align: center;
+    margin: 0 20px 50px 20px;
+}
+
+#instruction > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 67%
+}
+
+#instruction > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#instruction > div > div p {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+#instruction h4 {
+    margin: 25px 0 20px 0;
+    text-align: center;
+}
+
+#instruction span {
+    position: relative;
+}
+
+#instruction img {
+    max-width: 100%;
+    height: auto;
+    z-index: 3;
+}
+
+#instruction span.chane::after {
+    position: absolute;
+    top: 50%;
+    content: '';
+    background-color: #0f7bff;
+    height: 1px;
+    width: 18vw;
+}
+
+/* instruction section */
+
+/* pricing plan section */
+
+#prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 830px;
+    padding: 2%;
+    background-color: #ffffff;
+}
+
+#prices > div {
+    margin: 30px 15px;
+}
+
+#prices li {
+    margin: 10px 0;
+}
+
+#prices h4 {
+    position: relative;
+    margin: 30px 0;
+}
+
+#prices h4::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 150%;
+    left: 98px;
+    height: 1px;
+    width: 165px;
+    background-color: #e0e0e0;
+
+}
+
+#prices h2 {
+    margin-top: 17px;
+    margin-bottom: 38px;
+    color: #0f7bff;
+}
+
+#prices img {
+    margin-top: 40px;
+}
+
+#pp-standard, #pp-premium {
+    width: 360px;
+    box-shadow: 0 0 68px rgba(165, 165, 165, 0.25);
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+#ppMode p {
+    max-width: 325px;
+    margin: 0;
+    margin-bottom: 17px;;
+}
+
+#ppMode h2 {
+    margin-bottom: 33px;
+}
+
+#ppMode form {
+    text-align: center;
+}
+
+.radio-buttons-wrapper {
+    width: 328px;
+    height: 48px;
+    border: solid 2px #0f7bff;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 25px;
+    color: #0f7bff;
+    overflow: hidden;
+}
+
+.radio-button {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+
+.radio-button + label {
+    width: 49.3%;
+    height: 100%;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.radio-button:checked + label {
+    color: #ffffff;
+    background-color: #0f7bff;
+}
+
+#prices a {
+    width: 163px;
+    margin-bottom: 40px;
+    line-height: 48px;
+    text-align: center;
+    border: solid 2px #0f7bff;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+#pp-standard a {
+    background-color: #0f7bff;
+    color: #ffffff;
+}
+
+#pp-standard a:hover {
+    background-color: #ffffff;
+    color: #0f7bff;
+}
+
+#pp-premium a {
+    color: #0f7bff;
+}
+
+#pp-premium a:hover {
+    background-color: #0f7bff;
+    color: #ffffff;
+}
+
+/* pricing plan section end */
+
+/* tweets section */
+
+#tweets {
+    display: flex;
+    overflow: hidden;
+}
+
+#tweets > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tweets-content {
+    padding: 100px 130px;
+}
+
+.carousel-container {
+    width: 1170px;
+    margin:40px 0;
+    min-height: 215px;
+    overflow: hidden;
+}
+
+.carousel-container .track {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.carousel-container .card-container {
+    width: 390px;
+    height: 215px;
+    flex-shrink: 0;
+
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.carousel-container .tweet-container {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(165, 165, 165, 0.1);
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+
+.carousel-container .c-nav {
+    width: fit-content;
+    padding-top: 40px;
+}
+
+.carousel-container .c-nav span {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #d4d4d4;
+}
+
+.carousel-container .c-nav span:hover {
+    cursor: pointer;
+}
+
+.carousel-container .c-nav span.s-active {
+    width: 30px;
+    background-color: #0f7bff;
+}
+
+.carousel-container .c-nav span[data-type='middle'] {
+    display: none;
+}
+
+.carousel-container .c-nav span[data-type='small'] {
+    display: none;
+}
+
+.carousel-container .tweet-container h4 {
+    display: inline-block;
+}
+
+.carousel-container .tweet-container h5 {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.carousel-container .tweet-container img {
+    margin-left: 61.5%;
+}
+
+.carousel-container .tweet-container p {
+    margin: 0;
+}
+
+/* tweets section end */
+
+/* news section */
+
+#news {
+    padding: 70px 2%;
+    background-color: #ffffff;
+}
+
+#news h2 {
+    background-image: url("../../images/homepage/strips.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 75px;
+}
+
+#news > p {
+    max-width: 730px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#news img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1140px;
+}
+
+.news-wrapper > div {
+    padding: 10px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles > article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.articles img {
+    margin-right: 30px;
+}
+
+.article-wrapper h4 {
+    max-width: 340px;
+}
+
+.article-wrapper p {
+    max-width: 300px;
+    margin: 0;
+}
+
+.main-article {
+    margin-bottom: 50px;
+}
+
+.main-article h3 {
+    max-width: 490px;
+    color: #0f7bff;
+}
+
+.main-article p {
+    max-width: 530px;
+}
+
+.main-article > img {
+    margin-bottom: 40px;
+}
+
+.main-article a {
+    color: #0f7bff;
+    font-weight: bold;
+}
+
+/* news section end */
+
+/* free trial info section */
+
+#freeTrial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 340px;
+    margin: auto;
+
+    background-color: #f5fcfd;
+}
+
+#freeTrial a {
+    line-height: 76px;
+    width: 263px;
+    background-color: #0f7bff;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 0 81px;
+    text-align: center;
+}
+
+#freeTrial > div {
+    margin: 20px 81px 0;
+}
+
+#freeTrial p {
+    margin: 0;
+    margin-top: 24px;
+}
+
+/* free trial info section end */
+
+/* subscription section */
+
+#subscr {
+    background-color: #0f7bff;
+    color: #ffffff;
+    padding: 130px 0;
+
+    border-bottom: solid 1px #ffffff;
+}
+
+#subscr h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+#subscribeForm {
+    border: solid 2px #ffffff;
+    border-radius: 30px;
+    max-width: 560px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+#emailInput, #submitEmail {
+    float: left;
+}
+
+#emailInput {
+    padding: 5px 30px;
+    height: 60px;
+    width: 392px;
+    border: 1px solid #0f7bff;
+    background: transparent;
+    border-radius: 30px 0 0 30px;
+
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#emailInput::placeholder {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#submitEmail
+{
+    background-color: #ffffff;
+    color: #0f7bff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: solid 1px #ffffff;
+    height: 60px;
+    width: 168px;
+    cursor: pointer;
+}
+
+#submitEmail:active {
+    border: none;
+    background-color: #f6f6f6;
+}
+
+/* subscription section  end */
+
+/* reference section */
+
+#reference {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    background-color: #0f7bff;
+    color: #ffffff;
+    text-align: center;
+}
+
+#reference p {
+    flex: 3;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.footer-nav-wrapper {
+    flex: 3;
+    text-align: center;
+}
+
+.footer-nav-wrapper a {
+    margin: 30px 20px;
+}
+
+.social-networks-wrapper {
+    flex: 2;
+    text-align: center;
+}
+
+.social-networks-wrapper img{
+    margin: 0 5px;
+}
+
+#reference > a {
+    height: 45px;
+    width: 45px;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+#reference > a img {
+    margin-top: 10px;
+}
+
+/* reference section end */
+
+
+@media screen and (min-width: 2520px){
+    nav, #intro {
+        width: 81%;
+    }
+
+    #instruction > div {
+        width: 50%;
+    }
+
+    #instruction span.chane::after {
+        width: 12vw;
+    }
+}
+
+@media screen and (max-width: 2519px) and (min-width: 2300px){
+    nav, #intro {
+        width: 82%;
+    }
+
+    #instruction > div {
+        width: 55%;
+    }
+
+    #instruction span.chane::after {
+        width: 14vw;
+    }
+}
+
+@media screen and (max-width: 2299px) and (min-width: 2101px) {
+    nav, #intro {
+        width: 83%;
+    }
+
+    #instruction > div {
+        width: 60%;
+    }
+
+    #instruction span.chane::after {
+        width: 16vw;
+    }
+}
+
+@media screen and (max-width: 2100px) and (min-width: 1901px) {
+    nav, #intro {
+        width: 85%;
+    }
+
+    #instruction > div {
+        width: 65%;
+    }
+
+    #instruction span.chane::after {
+        width: 18vw;
+    }
+}
+
+@media screen and (max-width: 1900px) and (min-width: 1701px) {
+    nav, #intro {
+        width: 87%;
+    }
+}
+
+nav, #intro {
+    width: 87%;
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1501px) {
+
+    #instruction > div {
+        width: 80%;
+    }
+
+    #instruction span.chane::after {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1366px){
+    #instruction > div {
+        width: 85%;
+    }
+
+    #instruction span.chane::after {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 1411px) {
+    #reference {
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .footer-nav-wrapper {
+        flex: initial;
+        margin: 10px 5px;
+    }
+
+    .footer-nav-wrapper a {
+        display: block;
+        width: fit-content;
+        text-align: left;
+        margin: 5px 0;
+    }
+
+    .social-networks-wrapper {
+        align-self: center;
+    }
+
+    #reference p {
+        order: 4;
+        flex-basis: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1860px) {
+    header {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1919px) {
+    #tweets {
+        flex-direction: column;
+    }
+
+    #tweets img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .carousel-container {
+        width: 780px;
+    }
+
+    .carousel-container .c-nav span[data-type='middle'] {
+        display: inline-block;
+    }
+
+    .carousel-container {
+        margin: 40px auto;
+    }
+
+    .carousel-container .c-nav {
+        margin: auto;
+    }
+
+    .tweets-content {
+        padding: 50px 30px;
+    }
+
+    .tweets-content h2 {
+        text-align: center;
+    }
+}
+
