@@ -1,9 +1,11 @@
 header {
     position: relative;
     display: block;
-    background-image: url("../../images/homepage/shape.png"), linear-gradient(to right, #0f7bff, #0f7bff);
+    background-image: url("../../images/homepage/shape.png");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
 }
 
 footer {
@@ -38,18 +40,18 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    margin-top: 106px;
+    margin-top: 34px;
 }
 
 #intro h1 {
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 22px;
 }
 
 #intro p {
     max-width: 611px;
     margin: 0;
-    margin-bottom: 37px;
+    margin-bottom: 12px;
     text-align: center;
 }
 
@@ -184,9 +186,18 @@ img[alt="app_screens"] {
 }
 
 #descriptions > div > img {
+    position: relative;
     max-width: 100%;
     height: auto;
     margin: 3%;
+}
+
+#fst-desc > img {
+    right: 105px;
+}
+
+#scnd-desc > img {
+    left: 105px;
 }
 
 #descriptions > div p {
@@ -739,6 +750,28 @@ img[alt="app_screens"] {
 
 /* reference section end */
 
+@media screen and (min-width: 1921px) {
+    header {
+        background-position-y: top;
+    }
+
+    #intro {
+        margin-top: 94px;
+    }
+
+    #intro h1 {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    #intro p {
+        margin-bottom: 22px;
+    }
+
+    img[alt="app_screens"] {
+        margin-top: 50px;
+    }
+}
 
 @media screen and (min-width: 2520px){
     nav, #intro {
@@ -782,7 +815,7 @@ img[alt="app_screens"] {
     }
 }
 
-@media screen and (max-width: 2100px) and (min-width: 1901px) {
+@media screen and (max-width: 2100px) and (min-width: 1919px) {
     nav, #intro {
         width: 85%;
     }
@@ -796,17 +829,30 @@ img[alt="app_screens"] {
     }
 }
 
-@media screen and (max-width: 1900px) and (min-width: 1701px) {
+@media screen and (max-width: 1920px) and (min-width: 1901px) {
     nav, #intro {
-        width: 87%;
+        width: 80%;
+    }
+
+    #instruction > div {
+        width: 65%;
+    }
+
+    #instruction span.chane::after {
+        width: 18vw;
     }
 }
 
-nav, #intro {
-    width: 87%;
+@media screen and (max-width: 1900px) and (min-width: 1701px) {
+    nav, #intro {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 1700px) and (min-width: 1501px) {
+    nav, #intro {
+        width: 90%;
+    }
 
     #instruction > div {
         width: 80%;
@@ -818,12 +864,26 @@ nav, #intro {
 }
 
 @media screen and (max-width: 1500px) and (min-width: 1366px){
+    nav, #intro {
+        width: 90%;
+    }
+
     #instruction > div {
         width: 85%;
     }
 
     #instruction span.chane::after {
         width: 25vw;
+    }
+}
+
+@media screen and (max-width: 1490px) {
+    #fst-desc > img {
+        right: 75px;
+    }
+
+    #scnd-desc > img {
+        left: 75px;
     }
 }
 
@@ -854,12 +914,6 @@ nav, #intro {
         flex-basis: 100%;
         margin-top: 0;
         margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 1860px) {
-    header {
-        background-size: cover;
     }
 }
 

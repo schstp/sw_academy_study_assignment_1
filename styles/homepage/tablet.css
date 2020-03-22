@@ -6,6 +6,7 @@ nav, #intro {
     width: 97%;
 }
 
+
 @media screen and (max-width: 1365px) and (min-width: 1201px) {
     #instruction > div {
         width: 90%;

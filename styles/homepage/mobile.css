@@ -165,6 +165,14 @@ nav, #intro {
     margin-top: 15px;
 }
 
+#fst-desc > img {
+    right: 0;
+}
+
+#scnd-desc > img {
+    left: 0;
+}
+
 #instruction > div {
     flex-direction: column;
     justify-content: space-between;
@@ -255,6 +263,12 @@ nav, #intro {
 
 #freeTrial p {
     text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    header {
+        background-position-x: left;
+    }
 }
 
 @media screen and (max-width: 540px){
