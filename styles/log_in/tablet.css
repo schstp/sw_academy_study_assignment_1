@@ -1,0 +1,60 @@
+header > nav {
+    width: 92%;
+}
+
+@media screen and (max-width: 1061px) and (min-width: 876px) {
+    #signUpBtn {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #metaInfo .meta-right-content {
+        width: 50%;
+    }
+
+    #metaInfo .meta-right-content > div {
+        margin-right: auto;
+    }
+
+    #reference .footer-nav-wrapper {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    #metaInfo {
+        flex-wrap: wrap;
+    }
+
+    #metaInfo .meta-right-content {
+        width: 100%;
+    }
+
+    #metaInfo .meta-left-content {
+        padding-left: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    #reference {
+        justify-content: center;
+    }
+
+    #reference .footer-nav-wrapper {
+        order: 1;
+        margin-right: 0;
+    }
+
+    #reference .footer-nav-wrapper a:first-child {
+        margin-left: 0;
+    }
+
+    #reference p {
+        order: 2;
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+    }
+}

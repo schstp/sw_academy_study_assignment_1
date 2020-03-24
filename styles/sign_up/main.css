@@ -1,0 +1,254 @@
+header {
+}
+
+header > nav {
+    height: 100px;
+    width: 84%;
+}
+
+footer {
+    position: relative;
+}
+
+#signUpBtn {
+    background-color: #0f7bff;
+}
+
+footer .footer-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+#metaInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 450px;
+    box-sizing: border-box;
+}
+
+#metaInfo .meta-left-content {
+    flex-shrink: 0;
+    padding: 20px;
+    padding-left: 0;
+}
+
+#metaInfo .meta-left-content h1 {
+    margin-bottom: 32px;
+    color: #0f7bff;
+}
+
+#metaInfo .meta-left-content p {
+    margin: 0;
+    max-width: 460px;
+}
+
+#metaInfo .meta-left-content .social-networks-wrapper {
+    margin-top: 30px;
+}
+
+#metaInfo .meta-left-content .social-networks-wrapper a {
+    margin-right: 15px;
+}
+
+#metaInfo .meta-right-content {
+    display: flex;
+    padding: 20px;
+}
+
+#metaInfo .meta-right-content > div {
+    margin-right: 100px;
+}
+
+#metaInfo .meta-right-content > div:last-child {
+    margin-right: 0;
+}
+
+#metaInfo .meta-right-content > div > h4 {
+    margin-bottom: 30px;
+}
+
+#metaInfo .meta-right-content > div > a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#metaInfo .meta-right-content > div > a:first-of-type {
+    color: #0f7bff;
+}
+
+#reference {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+#reference .social-networks-wrapper {
+    display: flex;
+}
+
+#reference .footer-nav-wrapper a {
+    margin-left: 40px;
+}
+
+#reference .footer-nav-wrapper a:first-child {
+    color: #0f7bff;
+}
+
+#reference > a {
+    position: absolute;
+    right: -12vw;
+    height: 45px;
+    width: 45px;
+    background-color: #0f7bff;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#reference a > img {
+    margin-top: 10px;
+}
+
+#metaInfo::after {
+    display: block;
+    position: absolute;
+    bottom: 18%;
+    left: 0;
+
+    content: '';
+    background-color: #dcdcdc;
+    height: 1px;
+    width: 100%;
+}
+
+
+#content {
+    background-color: #ffffff;
+}
+
+#content .sign-up-form-wrapper {
+    width: 60%;
+    margin: auto;
+    padding: 130px 0;
+    text-align: center;
+}
+
+#content .sign-up-form-wrapper > h2 {
+    margin-bottom: 35px;
+}
+
+#content .sign-up-form-wrapper > p:first-of-type {
+    max-width: 740px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+#content .sign-up-form-wrapper > a {
+    line-height: 55px;
+    width: 165px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#content .sign-up-form-wrapper > a:first-of-type {
+    background-color: #3b5999;
+    margin-right: 15px;
+}
+
+#content .sign-up-form-wrapper > a:last-of-type {
+    background-color: #55acee;
+    margin-left: 15px;
+}
+
+#content .sign-up-form-wrapper > p:last-of-type {
+    margin: 45px 0;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+#content .sign-up-form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    margin: auto;
+}
+
+#content .sign-up-form-wrapper form input:not([type='submit']) {
+    display: block;
+    height: 60px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+#content .sign-up-form-wrapper form input::placeholder {
+    padding-left: 30px;
+    font-size: 14px;
+    color: #929292;
+}
+
+#content .sign-up-form-wrapper form > p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#content .sign-up-form-wrapper form a {
+    color: #0f7bff;
+}
+
+#content .sign-up-form-wrapper form input[type='submit'] {
+    width: 165px;
+    height: 50px;
+    margin: auto;
+    border: none;
+    border-radius: 25px;
+    background-color: #0f7bff;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+@media screen and (max-width: 1919px) {
+    footer .footer-content-wrapper {
+        width: 70%;
+    }
+
+    #content .sign-up-form-wrapper {
+        width: 70%;
+    }
+
+    #reference > a {
+        right: -8vw;
+    }
+}
+
+@media screen and (max-width: 1599px) {
+    footer .footer-content-wrapper {
+        width: 92%;
+    }
+
+    #content .sign-up-form-wrapper {
+        width: 92%;
+    }
+
+    #reference .footer-nav-wrapper {
+        margin-right: 200px;
+    }
+
+    #reference > a {
+        right: 1vw;
+    }
+
+}
