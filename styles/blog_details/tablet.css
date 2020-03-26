@@ -1,0 +1,151 @@
+header > nav {
+    width: 92%;
+}
+
+/*@media screen and (max-width: 1181px) {
+    #preview {
+        justify-content: center;
+        padding: 36px 0;
+    }
+}*/
+
+@media screen and (max-width: 1255px) {
+    #content .blog-view-wrapper {
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 60px;
+    }
+
+    #content .blog-view-wrapper .sidebar-wrapper {
+        order: 1;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #content .blog-view-wrapper .articles-container {
+        order: 2;
+    }
+
+    #content .blog-view-wrapper .sidebar-wrapper .search-field-wrapper {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    #content .blog-view-wrapper .sidebar-wrapper .search-field-wrapper input {
+        width: 60%;
+    }
+
+    #content .articles-container article {
+        width: 100%;
+    }
+
+    #content .sidebar-wrapper .resent-posts-container {
+        width: 100%;
+    }
+
+    #content .sidebar-wrapper .category-container {
+        width: 100%;
+    }
+
+    #content .sidebar-wrapper .popular-tags-container {
+        width: 100%;
+    }
+
+    #content .blog-view-wrapper {
+        justify-content: space-around;
+    }
+
+    #content .articles-container article {
+        flex-direction: column;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    #content .articles-container .paginator {
+        justify-content: center;
+    }
+
+    #content .blog-view-wrapper .sidebar-wrapper .category-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #content .blog-view-wrapper .sidebar-wrapper .popular-tags-container {
+        width:358px;
+    }
+
+    #content .blog-view-wrapper .sidebar-wrapper {
+        justify-content: center !important;
+    }
+
+    #content .blog-view-wrapper .articles-container article > .article-pic-wrapper {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1061px) and (min-width: 876px) {
+    #signUpBtn {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #metaInfo .meta-right-content {
+        width: 50%;
+    }
+
+    #metaInfo .meta-right-content > div {
+        margin-right: auto;
+    }
+
+    #reference .footer-nav-wrapper {
+        margin-right: 100px;
+    }
+
+    #preview {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    #metaInfo {
+        flex-wrap: wrap;
+    }
+
+    #metaInfo .meta-right-content {
+        width: 100%;
+    }
+
+    #metaInfo .meta-left-content {
+        padding-left: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    #reference {
+        justify-content: center;
+    }
+
+    #reference .footer-nav-wrapper {
+        order: 1;
+        margin-right: 0;
+    }
+
+    #reference .footer-nav-wrapper a:first-child {
+        margin-left: 0;
+    }
+
+    #reference p {
+        order: 2;
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    #preview {
+        width: 92%;
+    }
+}

@@ -183,21 +183,23 @@ footer .footer-content-wrapper {
 
 /* blog section */
 
+#content {
+    display: flex;
+    justify-content: center;
+}
+
 #content .blog-view-wrapper {
     display: flex;
     justify-content: space-between;
     width: 60%;
-    margin: auto;
-    padding: 130px 0;
+    padding-top: 130px;
 }
 
 #content .articles-container article {
     display: flex;
+    flex-direction: column;
     width: 750px;
-    height: 298px;
     margin-bottom: 50px;
-    box-shadow: 0 0 76px #e9e9e9;
-    border-radius: 5px;
 }
 
 #content .article-pic-wrapper {
@@ -207,20 +209,7 @@ footer .footer-content-wrapper {
 
 #content .articles-container article .article-content-wrapper {
     text-align: left;
-    padding: 40px 30px;
-}
-
-#content .articles-container article .article-content-wrapper a {
-    font-weight: bold;
-    color: #333333;
-}
-
-#content .articles-container article:first-of-type .article-content-wrapper h4 {
-    color: #0f7bff;
-}
-
-#content .articles-container article:first-of-type .article-content-wrapper a {
-    color: #0f7bff;
+    padding: 40px 0;
 }
 
 #content .articles-container article .article-meta-info {
@@ -237,51 +226,154 @@ footer .footer-content-wrapper {
 }
 
 #content .articles-container article .article-meta-info span:first-of-type {
-    margin-right: 26px;
+    margin-right: 54px;
 }
 
 #content .articles-container article .article-meta-info img:last-of-type {
-    margin-left: 65px;
+    margin-left: 85px;
 }
 
-#content .articles-container .paginator {
+#content .articles-container article .quotation-wrapper {
     display: flex;
+    flex-direction: column;
+    margin: 36px 0;
+}
+
+#content .articles-container article .quotation-wrapper p {
+    max-width: 520px;
+    align-self: center;
+    margin: 0;
+    color: #333333;
+}
+
+#content .articles-container article .article-content-wrapper > p:last-of-type {
+    margin-bottom: 46px;
+}
+
+#content .articles-container article .article-content-wrapper .article-nav-wrapper {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top: solid 1px #dcdcdc;
+    border-bottom: solid 1px #dcdcdc;
     text-align: center;
 }
-#content .articles-container .paginator input[type="radio"] {
-    display: none;
-}
 
-#content .articles-container .paginator .radio-btns-set-label {
-    display: inline-block;
-    width: 33px;
-    line-height: 40px;
-    cursor: pointer;
-    background-color: #0f7bff;
-    color: #ffffff;
-    font-size: 22px;
+#content .articles-container article .article-content-wrapper .article-nav-wrapper > div {
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
     font-weight: bold;
 }
 
-#content .articles-container .paginator .radio-btns-set-label:first-of-type {
-    border-radius: 3px 0 0 3px;
+#content .articles-container article .article-content-wrapper .article-nav-wrapper > div > div {
+    margin-top: 15px;
 }
 
-#content .articles-container .paginator input[type="radio"]:checked + label {
+#content .articles-container article .article-content-wrapper .article-nav-wrapper > div:last-of-type img {
+    margin-left: 13px;
+}
+
+#content .articles-container article .article-content-wrapper .article-nav-wrapper > div > div > span {
+    min-width: 58px;
+    border-radius: 14px;
+    border: solid 1px #0f7bff;
+    margin-left: 13px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: #0f7bff;
+    font-weight: 400;
+}
+
+#content .articles-container article .article-content-wrapper .article-nav-wrapper > div > div > span > span {
+    padding: 0 15px;
+}
+
+#content .articles-container article .article-content-wrapper .article-nav-wrapper a {
+    width: 165px;
+    margin-top: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: solid 1px #0f7bff;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+#content .articles-container article .article-content-wrapper .article-nav-wrapper a:first-of-type {
+    background-color: #0f7bff;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+#content .articles-container article .article-content-wrapper .article-nav-wrapper a:first-of-type:hover {
     background-color: #ffffff;
     color: #0f7bff;
 }
 
-#content .articles-container .paginator button {
-    width: 33px;
-    height: 40px;
-    background-color: #0f7bff;
-    cursor: pointer;
-    border: none;
-    border-radius: 0 3px 3px 0;
-    outline: none;
+#content .articles-container article .article-content-wrapper .article-nav-wrapper a:last-of-type {
+    color: #0f7bff;
+    margin-left: 15px;
 }
 
+#content .articles-container article .article-content-wrapper .article-nav-wrapper a:last-of-type:hover {
+    background-color: #0f7bff;
+    color: #ffffff;
+}
+
+#content .articles-container article .article-content-wrapper .comment-form {
+    max-width: 750px;
+}
+
+#content .articles-container article .article-content-wrapper .comment-form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content .articles-container article .article-content-wrapper .comment-form h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#content .articles-container article .article-content-wrapper .comment-form input[type='text'] {
+    line-height: 60px;
+    width: 360px;
+    margin: 20px 0;
+    padding-left: 30px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+#content .articles-container article .article-content-wrapper .comment-form textarea {
+    width: 750px;
+    height: 160px;
+    margin: 30px 0;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    resize: none;
+}
+
+#content .articles-container article .article-content-wrapper .comment-form input[type='submit'] {
+    display: block;
+    margin-left: auto;
+    width: 165px;
+    height: 50px;
+    background-color: #0f7bff;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
 /* blog section end */
 
 /* sidebar section */
